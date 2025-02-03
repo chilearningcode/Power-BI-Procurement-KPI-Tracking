@@ -12,7 +12,6 @@ This project utilizes the AdventureWorks dataset, a comprehensive database repre
 ### Recommendations 
 
 ## III. Design Thinking Applying (Road to solve this problem) 
-> Do phần này vừa được copy paste qua nên Cần chỉnh sửa lại nội dung cho đúng với project
 ### Step 1 - Empathize 
 Applied 5W1H to define the problem
 
