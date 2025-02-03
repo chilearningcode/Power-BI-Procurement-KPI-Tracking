@@ -19,10 +19,10 @@ Applied 5W1H to define the problem
 | 5W1H | Answer |
 |-|-
 | Who will use this dashboard? <br> -> Choose only one Stakeholder | Purchasing Dept. <br> -> Purchasing Staff | 
-| What problem this dashboard will tackle? <br> -> Describe the problem in one sentence | Monitor work performance in real-time <br> Supervise purchasing activities <br> Control prices <br> Manage suppliers <br> Forecast production demand <br> Control and forecast inventory demand <br> -> **have a right decision on expansion stratergy base on data** |
-| When and where will Stakeholders view this Dashboard? | This dashboard can be view weekly or monthly in the meeting. |
-| Why the Stakeholders need this dashboard? | 1. To know how products have progressed in sales over the past period <br> 2. Identify products with potential for further development <br> 3. Determine which products should be improved or discontinued <br> 4. Gain an overall understanding of the business situation <br> 5. Have a basis for making decisions
-| How have the Stakeholders been achieving their goals so far? | Investigate and research the impact of each product on revenue and profit, by region or by different times of the year.
+| What problem this dashboard will tackle? <br> -> Describe the problem in one sentence | Monitor work performance in real-time <br>Supervise purchasing activities <br>Control prices <br>Manage suppliers <br>Forecast production demand <br>Control and forecast inventory demand <br> -> **Managing price discrepancies and overseeing raw material purchasing activities (the return rate).** |
+| When and where will Stakeholders view this Dashboard? | This dashboard can be view daily on the morning and during working time. |
+| Why the Stakeholders need this dashboard? | It's essential to understand the department's current performance, ascertain if efficiency targets have been met, and verify if progress is on schedule. <br>Evaluate whether the timing and quantities of orders are optimized to minimize costs (shipping costs, production volumes, etc.). <br>Ensure inventory levels are optimized (avoiding excess or shortage) to meet production demand effectively.
+| How have the Stakeholders been achieving their goals so far? | Analyze and compare the cost of product materials across various vendors throughout the month.
 
 |EMPATHY MAP | |
 |-|-|
