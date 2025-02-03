@@ -18,7 +18,7 @@ Applied 5W1H to define the problem
 
 | 5W1H | Answer |
 |-|-
-| Who will use this dashboard? <br> -> Choose only one Stakeholder | Purchasing Dept. <br> -> Purchasing Staff | 
+| Who will use this dashboard? <br> -> Choose only one Stakeholder | Purchasing Dept. <br> -> **Purchasing Staff** | 
 | What problem this dashboard will tackle? <br> -> Describe the problem in one sentence | Monitor work performance in real-time <br>Supervise purchasing activities <br>Control prices <br>Manage suppliers <br>Forecast production demand <br>Control and forecast inventory demand <br> -> **Managing price discrepancies and overseeing raw material purchasing activities (the return rate).** |
 | When and where will Stakeholders view this Dashboard? | This dashboard can be view daily on the morning and during working time. |
 | Why the Stakeholders need this dashboard? | It's essential to understand the department's current performance, ascertain if efficiency targets have been met, and verify if progress is on schedule. <br>Evaluate whether the timing and quantities of orders are optimized to minimize costs (shipping costs, production volumes, etc.). <br>Ensure inventory levels are optimized (avoiding excess or shortage) to meet production demand effectively.
@@ -26,17 +26,17 @@ Applied 5W1H to define the problem
 
 |EMPATHY MAP | |
 |-|-|
-| Thinking and feeling |1. The sales manager believes that business performance is very good and that the company is operating smoothly. <br> 2. They believe there is potential for market development and expansion.
-| Seeing |Sales manager sees potential for further development.
-| Saying and doing |"We need more data-driven insights for the market expansion strategy" <br> Action: Explore better tools and processes for data analysis
-| Pains |The manager sees a growth trend but is unsure if this trend reflects the entire market or all products. Is the growth due to a specific product, or is it because a particular market has increasing demand?
-| Gains |What the stakeholder wants: <br> -> To use data to analyze overall performance and the details of each product. <br> -> To avoid bias in evaluations.
+| Pains |There is a lack of detailed work performance monitoring, making it difficult to identify if there are any issues in supplier management.
+| Thinking and feeling |The team leader thinks that they need an efficient solution that enables the team to swiftly and effectively monitor and compare supplier pricing activities.
+| Seeing |The team leader recognizes the potential to leverage existing data to compare the performance of various suppliers. This will provide insights into how different suppliers manage their logistics and determine if their proposed prices are competitive.
+| Saying and doing |We require a report that allows for ongoing monitoring and comparison of supplier performance, and provides alerts if any supplier has pricing issues. <br> Action: Explore better tools and processes for data analysis
+| Gains |Based on the report, the purchasing team can manage and collaborate with suppliers to ensure the company always acquires goods at optimal prices.
 
 The Dataset 
 
 |Fact table | Dim table |
 |-|-
-| orders | returns <br> people <br> date
+| 1. PurchaseOrderDetail <br>2. PurchaseOrderHeader | 1. Vendor <br>2. ProductVendor <br>3. Product <br>4. ProductTable <br>5. Dim_date
 
 ### Step 2 - Define POV 
 Find the North star metric
