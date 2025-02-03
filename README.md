@@ -70,3 +70,14 @@ Dimension Data Group
 Next, I moved on to Step 4 - Prototype and Review, iterating multiple times to refine the results. The final output will be showcased in the following section as a dashboard.
 
 ## IV. Dashboard 
+### Data modeling 
+![image](https://github.com/user-attachments/assets/c29e6718-d46c-4809-9983-c30e12950ddf)
+
+### View 1: PROCUREMENT OVERVIEW
+![image](https://github.com/user-attachments/assets/efbd2c76-961e-4378-a9dc-021e589ffd91)
+How to use: 
+
+### View 2: PROCUREMENT DETAIL VIEW
+![image](https://github.com/user-attachments/assets/72c01e33-2e58-45cb-9ae4-c3fa4f329f3d)
+How to use: 
+
