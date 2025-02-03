@@ -43,31 +43,30 @@ Find the North star metric
 
 | Questions | North star metric 1 | North star metric 2 
 |-|-|- 
-|What VALUE you want to measure?	|Revenue and Margin Profit | The products were actually sold without return |
-|WHEN the value DELIVERY SUCCESS?	|When will the product bring profit to company? | When and Why the products was returned? |
-|Northstar Metric Name	|% margin profit | % return rate |
-|WHY do you choose this metric?	|For high-profit products, we can launch promotional programs in new markets while maintaining reasonable profit margins initially.| High profitability is irrelevant if a product has a high return rate.|
+|What VALUE you want to measure?	| Cost | Returned Product |
+|WHEN the value DELIVERY SUCCESS?	|By optimizing purchasing costs, we can minimize unnecessary expenses. | When orders are delivered accurately, in full, and without any returns. |
+|Northstar Metric Name	|% Cost difference ratio | % Perfect Order Ratio |
+|WHY do you choose this metric?	|Optimizing purchasing costs can lead to a substantial improvement in sales profits.| To assess supplier performance, it is crucial to track frequent under-deliveries and defective goods, as these issues can greatly affect the company's time and expenses.|
 
 Dimension Data Group 
 
-| Group 1 | Group 2 | Group 3 | Group 3 |
-|-|-|-|-
-|Product |Market, Regions |Sales Person analysis | Return rates 
+| Group 1 | Group 2 | Group 3 
+|-|-|-
+|Cost components |Vendor's Product quantity | Vendor's Orders 
+|Freight <br>Tax <br>Cost Discrepancy | OnOrdering Products <br>Delivered Products <br>Rejected Products | Total orders placed with suppliers. <br>Quantity of incorrectly delivered orders (either under-delivered or delivered in full but with defects).
 
 | The Views | Description | Why |
 |-|-|-
-| Revenue, Profit and Growth rate by Years, Months | Business performance over the years, growth rate, revenue share by customers, market | How the company works over years 
-| Product revenue, Return rates analysis | Mainly analyze sub-category, revenue, sales volume, and profit, return rate - which products are returned, and how is the proportion | gain valuable insights into your business's performance across different types of the products, allowing to make informed decisions to drive growth and profitability
-| Region & Sales person analysis | How do different markets consume products, and what are the corresponding profits and return rates? | To understand the characteristics of each market, markets segmentation and performance of the sales persons of each market <br> This helps us gain insights into the new market where we plan to release the product and determine if it shares any similarities with the existing markets 
-
+| Overview | Time: Within the last month <br>Provides a summary of activities for the past month | To analyze recent activities within the last month
+| Vendor Evaluate | Detailed information on suppliers, categorized by reliability, average delivery time, and the discrepancy between proposed and actual costs. | To understand how each supplier operates, their delivery speed, and the differences between proposed and actual prices.
+| Daily KPI tracking | Access detailed information about products, including stock levels, warnings for shortages, product prices, and identifying frequently returned products. | Monitor the status of purchased goods to ensure adequacy, create warnings, and track return rates. Excessive prices can also be used to assess whether the delivery issues are due to the supplier or the product itself.
 
 ### Step 3 - Ideate 
 
-| Idea name | Layer 0 dimension: <br> Total metric | Layer 1 dimension: <br> Breakdown the metric by 1 dimension | Layer 0 dimension: <br> Breakdown the metric by 2 dimension | Is there anything missed 
+| Idea name | Layer 0 dimension: <br> Total metric | Layer 1 dimension: <br> Breakdown the metric by 1 dimension | Layer 2 dimension: <br> Breakdown the metric by 2 dimension | Is there anything missed 
 |-|-|-|-|-
-| Revenue | Revenue, Profit | Revenue, Profit by yearly, monthly <br> % Growth rate by yearly, monthly |
-| Product analysis | Return rate | Product revenue <br> Product profit <br> Product return rate | Revenue contribution by product <br> Product revuenue and return rate |
-| Market, Region analysis | Return rate | Market revunue <br> Market profit <br> Segment revenue, profit | Revenue contribution by market <br> Segment revenue and return rate <br> Market profit and return rate | Sales persons performance 
+| Cost components analysis | Aggregate for a specified period | Breakdown of costs for each supplier | A comprehensive breakdown of each order component, including logistics costs, ordering fees, and storage fees.
+| Vendor analysis | Perfect Orders ratio <br>Return ratio | Cost difference | Avg. Lead time |
 
 Next, I moved on to Step 4 - Prototype and Review, iterating multiple times to refine the results. The final output will be showcased in the following section as a dashboard.
 
