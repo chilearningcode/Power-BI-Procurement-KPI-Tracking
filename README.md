@@ -4,6 +4,15 @@
 This project utilizes the AdventureWorks dataset, a comprehensive database representing a fictional bicycle manufacturing company, to analyze business operations and extract insights. By focusing on procurement and cost control, we aim to enhance decision-making, improve efficiency, and boost profitability through data visualization and analysis tools.
 
 ### Dataset 
+Dataset: adventureworks2019 (public Google BigQuery dataset)
+
+Dataset dictionary: "Data Dictionary" (attached above)
+
+Dataset access:
+
+- Log in to your Google Cloud Platform account and create a new project.
+- Navigate to the BigQuery console and select your newly created project.
+- In the navigation panel, select "Add Data" and then "Star a project by name".
 
 
 ## II. Insights and Recommendations 
