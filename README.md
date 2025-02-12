@@ -50,9 +50,19 @@ format.
 ## 📂 Dataset Description & Data Structure  
 
 ### 📌 Data Source  
-- Source: (Mention where the dataset is obtained from—Kaggle, company database, government sources, etc.)  
-- Size: (Mention the number of rows & columns)  
-- Format: (.csv, .sql, .xlsx, etc.)  
+- Source: from [Microsoft sample database](https://learn.microsoft.com/en-us/sql/samples/adventureworks-install-configure?view=sql-server-ver16&tabs=ssms)
+- Size: Over 121000 rows 
+- Format: 
+  <details>
+  <summary>To access the dataset, follow these step</summary>
+  
+  - Access to the Microsoft sample database website.
+  - Download version of database you want.
+  - Import to SQL Server
+  - Import to Power BI through SQL Server 
+  
+  </details>
+
 
 ### 📊 Data Structure & Relationships  
 
