@@ -27,22 +27,13 @@
 
 ### 👤 Who is this project for?  
 
-Mention who might benefit from this project 
-
- _Example:_
-
-✔️ Data analysts & business analysts  
-✔️ Supply chain managers & inventory controllers  
-✔️ Decision-makers & stakeholders  
+The dashboard empowers **Purchasing Staffs** to efficiently manage costs, suppliers, and overall operations.
 
 ###  ❓Business Questions:  
-Clearly outline what the business questions project will solve.  
 
- _Example:_
-
-✔️ Identify high-demand products and sales trends.  
-✔️ Optimize inventory levels to prevent overstocking or stockouts.  
-✔️ Provide actionable insights through Power BI dashboards.  
+- **Cost and Supplier Management**: How can Purchasing Staff efficiently manage costs, supplier relationships, and price discrepancies?
+- **Performance and Efficiency Monitoring**: What strategies can be implemented to enhance performance monitoring and overall efficiency in purchasing operations?
+- **Demand and Inventory Forecasting**: How can Purchasing Staff accurately forecast demand and manage inventory to ensure quality control and avoid shortages or excesses?
 
 ### 🎯Project Outcome:  
 Summarize key findings and insights/ trends/ themes in a concise, bullet-point 
