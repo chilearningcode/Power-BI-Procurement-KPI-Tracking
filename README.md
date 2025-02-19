@@ -66,7 +66,8 @@ There are 6 tables were used in this project
 
 #### 2️⃣ Table Schema & Data Snapshot  
 
-Table 1: Product_Product 
+<details> 
+<summary>Table 1: Product_Product </summary>
 
 | Column Name             | DataType          | Description                                                                 |
 |-------------------------|-------------------|-----------------------------------------------------------------------------|
@@ -84,8 +85,10 @@ Table 1: Product_Product
 | DiscontinuedDate        | Date              | The date when the product was discontinued.                                 |
 | ModifiedDate            | Date              | The date when the product information was last modified.                    |
 
+</details>
 
-Table 2: Product_ProductTable  
+<details> 
+<summary>Table 2: Product_ProductTable  </summary>
 
 | Column Name            | DataType         | Description                                  |
 |------------------------|------------------|----------------------------------------------|
@@ -96,8 +99,10 @@ Table 2: Product_ProductTable
 | Category               | String           | The category of the product.                 |
 | Subcategory            | String           | The subcategory of the product.              |
  
+</details>
 
-Table 3: Purchasing_OrderDetail 
+<details> 
+<summary>Table 3: Purchasing_OrderDetail </summary>
 
 | Column Name            | DataType         | Description                                                            |
 |------------------------|------------------|------------------------------------------------------------------------|
@@ -113,8 +118,10 @@ Table 3: Purchasing_OrderDetail
 | ModifiedDate           | Date             | The date when the purchase order detail was last modified.             |
 | RejectedQty            | Integer          | The quantity of items that were rejected.                              |
 
+</details>
 
-Table 4: Purchasing_OrderHeader   
+<details> 
+<summary>Table 4: Purchasing_OrderHeader  </summary> 
 
 | Column Name         | DataType  | Description                                              |
 |---------------------|-----------|----------------------------------------------------------|
@@ -132,8 +139,10 @@ Table 4: Purchasing_OrderHeader
 | TotalDue            | Decimal   | The total amount due for the order.                      |
 | ModifiedDate        | Date      | The date when the purchase order was last modified.      |
 
+</details>
 
-Table 5: Purchasing_ProductVendor  
+<details> 
+<summary>Table 5: Purchasing_ProductVendor  </summary>
 
 | Column Name        | DataType  | Description                                        |
 |--------------------|-----------|----------------------------------------------------|
@@ -149,8 +158,10 @@ Table 5: Purchasing_ProductVendor
 | ModifiedDate       | Date      | The date when the product information was last modified. |
 | CostDiffRatio      | Decimal   | The cost difference ratio for the product.         |
 
+</details>
 
-Table 6: Purchasing_Vendor  
+<details> 
+<summary>Table 6: Purchasing_Vendor  </summary>
 
 | Column Name            | DataType         | Description                                                        |
 |------------------------|------------------|--------------------------------------------------------------------|
@@ -162,6 +173,7 @@ Table 6: Purchasing_Vendor
 | ActiveFlag             | Boolean          | Indicates whether the business entity is active.                   |
 | ModifiedDate           | Date             | The date when the business entity information was last modified.   |
 
+</details>
 
 #### 3️⃣ Data Relationships:  
 
