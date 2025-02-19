@@ -186,6 +186,9 @@ There are 6 tables were used in this project
 
 ➡️ Applied 5W1H to define the problem
 
+![image](https://github.com/user-attachments/assets/f7272b14-52bd-497f-a2ff-d8950ca3d293)
+
+<!---
 | 5W1H | Answer |
 |-|-
 | Who will use this dashboard? <br> -> Choose only one Stakeholder | Purchasing Dept. <br> -> **Purchasing Staff** | 
@@ -193,47 +196,67 @@ There are 6 tables were used in this project
 | When and where will Stakeholders view this Dashboard? | This dashboard can be view daily on the morning and during working time. |
 | Why the Stakeholders need this dashboard? | It's essential to understand the department's current performance, ascertain if efficiency targets have been met, and verify if progress is on schedule. <br>Evaluate whether the timing and quantities of orders are optimized to minimize costs (shipping costs, production volumes, etc.). <br>Ensure inventory levels are optimized (avoiding excess or shortage) to meet production demand effectively.
 | How have the Stakeholders been achieving their goals so far? | Analyze and compare the cost of product materials across various vendors throughout the month.
+---> 
 
 ➡️ Empathy Map for Stakeholders 
 
+![image](https://github.com/user-attachments/assets/02244c36-04ee-4259-a978-99a822a20fd7)
+
+<!---
 |EMPATHY MAP | |
 |-|-|
 | Pains |There is a lack of detailed work performance monitoring, making it difficult to identify if there are any issues in supplier management.
 | Thinking and feeling |The team leader thinks that they need an efficient solution that enables the team to swiftly and effectively monitor and compare supplier pricing activities.
 | Seeing |The team leader recognizes the potential to leverage existing data to compare the performance of various suppliers. This will provide insights into how different suppliers manage their logistics and determine if their proposed prices are competitive.
-| Saying and doing |We require a report that allows for ongoing monitoring and comparison of supplier performance, and provides alerts if any supplier has pricing issues. <br> Action: Explore better tools and processes for data analysis
+| Saying and doing |Saying: "We need a report that allows for ongoing monitoring and comparison of supplier performance, and provides alerts if any supplier has pricing issues." <br> Action: Explore better tools and processes for data analysis
 | Gains |Based on the report, the purchasing team can manage and collaborate with suppliers to ensure the company always acquires goods at optimal prices.
+---> 
 
 2️⃣ Define point of view  
 
 ➡️ Find the North star metric
 
+![image](https://github.com/user-attachments/assets/bae1dc64-5ad2-434a-8d40-dbb84e6d949b)
+
+<!---
 | Questions | North star metric 1 | North star metric 2 
 |-|-|- 
 |What VALUE you want to measure?	| Cost | Returned Product |
 |WHEN the value DELIVERY SUCCESS?	|By optimizing purchasing costs, we can minimize unnecessary expenses. | When orders are delivered accurately, in full, and without any returns. |
 |Northstar Metric Name	|% Cost difference ratio | % Perfect Order Ratio |
 |WHY do you choose this metric?	|Optimizing purchasing costs can lead to a substantial improvement in sales profits.| To assess supplier performance, it is crucial to track frequent under-deliveries and defective goods, as these issues can greatly affect the company's time and expenses.|
+---> 
 
 ➡️ Dimension Data Group 
 
+![image](https://github.com/user-attachments/assets/057e44f3-b5dd-47e4-aec3-a836ed7ad0be)
+
+<!---
 | Group 1 | Group 2 | Group 3 
 |-|-|-
 |Cost components |Vendor's Product quantity | Vendor's Orders 
 |Freight <br>Tax <br>Cost Discrepancy | OnOrdering Products <br>Delivered Products <br>Rejected Products | Total orders placed with suppliers. <br>Quantity of incorrectly delivered orders (either under-delivered or delivered in full but with defects).
+---> 
 
+![image](https://github.com/user-attachments/assets/cb969a86-a902-4b38-9149-70036f0c6bbd)
+
+<!---
 | The Views | Description | Why |
 |-|-|-
 | Overview | Time: Within the last month <br>Provides a summary of activities for the past month | To analyze recent activities within the last month
 | Vendor Evaluate | Detailed information on suppliers, categorized by reliability, average delivery time, and the discrepancy between proposed and actual costs. | To understand how each supplier operates, their delivery speed, and the differences between proposed and actual prices.
 | Daily KPI tracking | Access detailed information about products, including stock levels, warnings for shortages, product prices, and identifying frequently returned products. | Monitor the status of purchased goods to ensure adequacy, create warnings, and track return rates. Excessive prices can also be used to assess whether the delivery issues are due to the supplier or the product itself.
+--->
 
 3️⃣ Ideate  
 
+![image](https://github.com/user-attachments/assets/a4316d88-d0fa-422b-97d7-757001dd86ea)
+<!--- 
 | Idea name | Layer 0 dimension: <br> Total metric | Layer 1 dimension: <br> Breakdown the metric by 1 dimension | Layer 2 dimension: <br> Breakdown the metric by 2 dimension | Is there anything missed 
 |-|-|-|-|-
 | Cost components analysis | Aggregate for a specified period | Breakdown of costs for each supplier | A comprehensive breakdown of each order component, including logistics costs, ordering fees, and storage fees.
 | Vendor analysis | Perfect Orders ratio <br>Return ratio | Cost difference | Avg. Lead time |
+---> 
 
 4️⃣ Prototype and review  
 
